@@ -15,7 +15,7 @@ export default function GMap({user}) {
                 <div className="map user">
                 
                     <Map
-                  style={"mapbox://styles/mapbox/streets-v8"}
+                  style="mapbox://styles/mapbox/streets-v8"
                   zoom={[8]}
                   center={[user.lat,user.lang]}  //user.address.geo.lat, user.address.geo.lng
                   containerStyle={{
